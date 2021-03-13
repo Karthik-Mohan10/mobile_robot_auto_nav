@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+<!--
+  <arg name="scan_topic" default="/scan"/>
+  <arg name="map_topic" default="/map"/>
+-->
+<!-- Run the map_server -->
+  <arg name="map_file" default="$(find robot_auto_nav)/maps/my_map_test_demo4.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" output="screen" >
+    </node>
+ <!--
+  <remap from="scan"        to="$(arg scan_topic)"/>
+  <remap from="map"         to="$(arg map_topic)"/>
+-->
+<!-- Run AMCL -->
+  <include file="$(find robot_auto_nav)/launch/amcl.launch" />
+  <!--<include file="$(find amcl)/examples/amcl_diff.launch" />-->
+
+<!-- Run Move Base -->
+  <include file="$(find robot_auto_nav)/launch/move_base.launch" />
+
+
+</launch>
+
