@@ -1,0 +1,27 @@
+LIBRARIES REQUIRED FOR RUNNING ROBOT_AUTO_NAV PACKAGE IN UBUNTU:.................
+
+Install Pygame:
+sudp apt-get install python-pygame
+
+Include Serial datagateway python file
+
+Install Gmapping:
+sudo apt-get install ros-melodic-slam-gmapping
+
+Install TF:
+sudo apt-get install ros-melodic-tf
+rosrun tf tf_monitor //to monitor the transforms
+
+Install map server:
+sudo apt-get install ros-melodic-map-server
+rosrun map_server map_saver -f nameofmap //map_save
+rosrun map_server map_server map_file.yaml   //to launch map file
+rosservice call /static_map "{}"            //map service call
+
+Install amcl package, move base & navigation packages
+sudo apt-get install ros-melodic-amcl
+sudo apt-get install ros-melodic-move-base
+sudo apt-get install ros-melodic-navigation
+
+....................................
+
