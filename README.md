@@ -19,9 +19,9 @@ The manual control of Mobile robot using direction keystrokes are possible with 
 
 - Libraries required for the successful implementation of this package has been specified in file /ROS libraries for auto_nav
 
-The video on this [link](http://wiki.ros.org/navigation/Tutorials/Using%20rviz%20with%20the%20Navigation%20Stack)will show step by step instructions for implemeting navigation stack with help of ROS visualization tool - RVIZ
+The video on this [link](http://wiki.ros.org/navigation/Tutorials/Using%20rviz%20with%20the%20Navigation%20Stack) will show step by step instructions for implemeting navigation stack with help of ROS visualization tool - RVIZ
 
-With the use of this package Autonomous navigation of Mobile Robot from point A to B has been achieved. Further improvement has to be done by incorporating sensors like IMUs for odom improvement & by fine tuning or selecting suitable path planners which are application based.
+With the use of this package Autonomous navigation of Mobile Robot from point A to B has been achieved. Further improvement has to be done by incorporating sensors like IMUs etc for odom improvement & by fine tuning or selecting suitable path planners which are application based.
 
 Happy coding!
 
