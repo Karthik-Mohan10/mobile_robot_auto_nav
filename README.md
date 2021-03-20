@@ -15,11 +15,11 @@ The manual control of Mobile robot using direction keystrokes are possible with 
 
 - Path planning fine tune can be done by playing with the parameter files in /params directory 
 
-- The Entire ROS nodes & topics for this project can be visualised through the rosgraph.png file
+- The Entire ROS nodes & topics used for this project can be visualised through the rosgraph.png file
 
 - Libraries required for the successful implementation of this package has been specified in file /ROS libraries for auto_nav
 
-With the use of this package Autonomous navigation of Mobile Robot from point A to B has been achieved in a good way. Further improvement has to be done by incorporating sensors like IMUs for odom improvement & by fine tuning or selecting suitable path planners for specific applications.
+With the use of this package Autonomous navigation of Mobile Robot from point A to B has been achieved. Further improvement has to be done by incorporating sensors like IMUs for odom improvement & by fine tuning or selecting suitable path planners which are application based.
 
 Happy coding!
 
