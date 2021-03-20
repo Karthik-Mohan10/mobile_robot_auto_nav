@@ -10,8 +10,8 @@ The manual control of Mobile robot using direction keystrokes are possible with 
 
 - Use the following files for doing Mapping, Localization, & Navigation;
   - For Mapping: launch/AIO_gmapping.launch
-  - For Localization: launch/amcl.launch
-  - For 
+  - For Localization: launch/amcl_demo.launch
+  - For Navigation: launch/move_base_demo.launch
 
 
 
