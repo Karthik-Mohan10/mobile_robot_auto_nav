@@ -9,9 +9,9 @@ Robot_auto_nav is a ROS package for implementing autonomous navigation in a Diff
 The manual control of Mobile robot using direction keystrokes are possible with the help of src/agv_keyboard_control_ros.py file
 
 - Use the following files for doing Mapping, Localization, & Navigation;
-  For Mapping: launch/AIO_gmapping.launch
-  For Localization: launch/amcl.launch
-  For 
+  - For Mapping: launch/AIO_gmapping.launch
+  - For Localization: launch/amcl.launch
+  - For 
 
 
 
